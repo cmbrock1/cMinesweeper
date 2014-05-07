@@ -1,0 +1,10 @@
+char **makeEmptyBoard(char **,int,int);
+char **placeMines(int,int,int,char **);
+int numberOfAdjMines(char **,int,int,int,int);
+char **fillBoard(char **,int,int);
+void displayBoard(char **,int,int);
+char **coverBoard(char **,int,int);
+int uncover(char **,char **,int,int,int,int);
+int endOfGame(char **,char **,int,int);
+int move(char **,char **,int,int);
+void gameloop(char **,char **,int,int);
